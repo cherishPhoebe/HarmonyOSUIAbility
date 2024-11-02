@@ -1,4 +1,7 @@
 import { Banner } from '../views/Banner';
+import { EnablementView } from '../views/EnablementView';
+import { TutorialView } from '../views/TutorialView';
+
 @Entry
 @Component
 struct Index {
@@ -18,6 +21,8 @@ struct Index {
         Scroll(){
           Column(){
             Banner()
+            EnablementView()
+            TutorialView()
           }
         }
 
